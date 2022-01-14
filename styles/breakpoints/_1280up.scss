@@ -1,0 +1,40 @@
+/******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
+
+body {
+  & .main-visual {
+    height: 80vh;
+
+    & img {
+      height: 600px;
+    }
+
+    & h1 {
+      top: 500px;
+      font-size: 3.5rem;
+    }
+  }
+
+  & .aboutus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & .imgbox {
+      & img {
+        width: 600px;
+        left: 100px;
+        position: static;
+      }
+    }
+
+    & .container {
+      width: 500px;
+    //   position: absolute;
+      right: 100px;
+    }
+  }
+}

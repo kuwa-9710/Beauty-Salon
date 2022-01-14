@@ -1,0 +1,498 @@
+@charset "UTF-8";
+/******************************************************************
+
+Stylesheet: ベーススタイル
+
+******************************************************************/
+.font-sm {
+  font-size: 17px;
+}
+
+.font-md {
+  font-size: 21px;
+}
+
+.font-lr {
+  font-size: 23px;
+}
+
+.font-lg {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mb-sm {
+  margin-bottom: 16px !important;
+}
+
+.mb-lg {
+  margin-bottom: 115px !important;
+}
+
+.pb-sm {
+  padding-bottom: 16px !important;
+}
+
+.pb-lg {
+  padding-bottom: 80px !important;
+}
+
+/******************************************************************
+base
+******************************************************************/
+.content-size {
+  margin: 0 10%;
+}
+
+.center {
+  text-align: center;
+}
+
+.dancing {
+  font-family: "Dancing Script", cursive;
+}
+
+.subtitle {
+  color: #d8bc6e;
+}
+
+.imgbox {
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(70%, white), color-stop(70%, rgba(206, 206, 206, 0.2)), to(rgba(206, 206, 206, 0.2)));
+  background: linear-gradient(90deg, white 0%, white 70%, rgba(206, 206, 206, 0.2) 70%, rgba(206, 206, 206, 0.2) 100%);
+  height: 300px;
+  position: relative;
+}
+
+.imgbox img {
+  width: 400px;
+  position: absolute;
+  top: -30px;
+}
+
+.vartical-line {
+  width: 1px;
+  height: 30px;
+  background-color: white;
+  margin: 10px auto;
+}
+
+.box-right .imgbox {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(206, 206, 206, 0.2)), color-stop(30%, rgba(206, 206, 206, 0.2)), color-stop(30%, white), to(white));
+  background: linear-gradient(90deg, rgba(206, 206, 206, 0.2) 0%, rgba(206, 206, 206, 0.2) 30%, white 30%, white 100%);
+}
+
+.box-right img {
+  padding-top: 20px;
+}
+
+/******************************************************************
+Body
+******************************************************************/
+body {
+  background-color: white;
+  font-family: "Klee One", cursive;
+  /******************************************************************
+  main visual
+  ******************************************************************/
+  /******************************************************************
+  about
+  ******************************************************************/
+  /******************************************************************
+  CTA
+  ******************************************************************/
+  /******************************************************************
+  staff
+  ******************************************************************/
+  /******************************************************************
+  style
+  ******************************************************************/
+  /******************************************************************
+  menu
+  ******************************************************************/
+  /******************************************************************
+  furubo
+  ******************************************************************/
+  /******************************************************************
+  google map
+  ******************************************************************/
+}
+
+body header {
+  background-color: #1da074;
+}
+
+body ul {
+  list-style: none;
+}
+
+body .main-visual {
+  height: 580px;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(70%, white), color-stop(70%, rgba(254, 245, 237, 0.46)), to(rgba(254, 245, 237, 0.46)));
+  background: linear-gradient(90deg, white 0%, white 70%, rgba(254, 245, 237, 0.46) 70%, rgba(254, 245, 237, 0.46) 100%);
+  position: relative;
+}
+
+body .main-visual img {
+  width: 70%;
+  height: 500px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 50px;
+  right: 65px;
+}
+
+body .main-visual .name {
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  color: #1da074;
+}
+
+body .main-visual .name h1 {
+  font-size: 70px;
+}
+
+body h3 {
+  color: #1da074;
+}
+
+body .contentBox {
+  padding: 0 20px;
+  margin-bottom: 100px;
+}
+
+body .cta {
+  background-color: #1da074;
+  color: white;
+  padding: 15px;
+}
+
+body .cta h3 {
+  font-weight: bold;
+  color: white;
+}
+
+body .cta p {
+  font-size: 14px;
+}
+
+body .cta .reserve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .cta .reserve i {
+  margin-bottom: 20px;
+}
+
+body .cta .reserve .web {
+  width: 45%;
+  padding: 20px 20px 10px 20px;
+  background-color: rgba(135, 202, 170, 0.2);
+}
+
+body .cta .reserve .call {
+  width: 45%;
+  padding: 20px 20px 10px 20px;
+  background-color: rgba(240, 240, 240, 0.2);
+}
+
+body .cta .reserve .call .fas {
+  rotate: 45deg;
+}
+
+body #staff .imgbox img {
+  top: 0px;
+  right: 0px;
+}
+
+body #staff h4 {
+  color: #1da074;
+}
+
+body #staff .contentBox span {
+  color: #1da074;
+  display: block;
+}
+
+body #staff p {
+  line-height: 1.8rem;
+}
+
+body #style {
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(70%, white), color-stop(70%, rgba(206, 206, 206, 0.2)), to(rgba(206, 206, 206, 0.2)));
+  background: linear-gradient(90deg, white 0%, white 70%, rgba(206, 206, 206, 0.2) 70%, rgba(206, 206, 206, 0.2) 100%);
+}
+
+body #style .style-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #style .style-box .style-image {
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+  -webkit-box-shadow: 10px 10px 5px rgba(206, 206, 206, 0.2);
+          box-shadow: 10px 10px 5px rgba(206, 206, 206, 0.2);
+}
+
+body #menu .menu {
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(70%, white), color-stop(70%, rgba(206, 206, 206, 0.2)), to(rgba(206, 206, 206, 0.2)));
+  background: linear-gradient(90deg, white 0%, white 70%, rgba(206, 206, 206, 0.2) 70%, rgba(206, 206, 206, 0.2) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #menu .menu img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #menu .menu .menu-box {
+  padding: 30px 30px 10px 30px;
+  line-height: 1rem;
+}
+
+body #menu .menu .menu-box .menu-title {
+  color: #1da074;
+  display: block;
+}
+
+body .furubo .furubo-title {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(254, 245, 237, 0.46)), color-stop(30%, rgba(254, 245, 237, 0.46)), color-stop(30%, white), to(white));
+  background: linear-gradient(90deg, rgba(254, 245, 237, 0.46) 0%, rgba(254, 245, 237, 0.46) 30%, white 30%, white 100%);
+  height: 350px;
+}
+
+body .furubo .furubo-title img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .furubo p {
+  line-height: 1.8rem;
+}
+
+body .gmap {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+body .gmap iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body footer {
+  background-color: #1da074;
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+}
+
+@media (min-width: 480px) {
+  /******************************************************************
+
+Stylesheet: 480px以上(スマホの横向き)のモニタで適用
+
+******************************************************************/
+}
+
+@media (min-width: 600px) {
+  /******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+}
+
+@media (min-width: 960px) {
+  /******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+  .font-sm {
+    font-size: 19px;
+  }
+  .font-md {
+    font-size: 23px;
+  }
+  .font-lr {
+    font-size: 24px;
+  }
+  .font-lg {
+    font-size: 36px;
+  }
+  .mb-lg {
+    margin-bottom: 120px !important;
+  }
+  .pb-lg {
+    padding-bottom: 150px !important;
+  }
+  .box-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .box-left .imgbox {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(206, 206, 206, 0.2)), color-stop(30%, rgba(206, 206, 206, 0.2)), color-stop(30%, white), to(white));
+    background: linear-gradient(90deg, rgba(206, 206, 206, 0.2) 0%, rgba(206, 206, 206, 0.2) 30%, white 30%, white 100%);
+    width: 50%;
+    height: 450px;
+  }
+  .box-left .imgbox img {
+    width: 500px;
+    height: auto;
+    position: static;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .box-left .container {
+    width: 50%;
+    padding-top: 100px;
+  }
+  .box-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .box-right .imgbox {
+    background: -webkit-gradient(linear, left top, right top, from(white), color-stop(70%, white), color-stop(70%, rgba(206, 206, 206, 0.2)), to(rgba(206, 206, 206, 0.2)));
+    background: linear-gradient(90deg, white 0%, white 70%, rgba(206, 206, 206, 0.2) 70%, rgba(206, 206, 206, 0.2) 100%);
+    height: 450px;
+    width: 50%;
+    padding-left: 20px;
+  }
+  .box-right .imgbox img {
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    position: static;
+    padding-top: 50px;
+  }
+  .box-right .container {
+    width: 50%;
+    padding-top: 100px;
+  }
+  /******************************************************************
+
+******************************************************************/
+  /******************************************************************
+
+******************************************************************/
+  /******************************************************************
+
+******************************************************************/
+}
+
+@media (min-width: 1280px) {
+  /******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
+  body .main-visual {
+    height: 80vh;
+  }
+  body .main-visual img {
+    height: 600px;
+  }
+  body .main-visual h1 {
+    top: 500px;
+    font-size: 3.5rem;
+  }
+  body .aboutus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .aboutus .imgbox img {
+    width: 600px;
+    left: 100px;
+    position: static;
+  }
+  body .aboutus .container {
+    width: 500px;
+    right: 100px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /******************************************************************
+
+Stylesheet: Retinaディスプレイで適用
+
+******************************************************************/
+  /* 
+
+EXAMPLE 
+.icon {
+	background: url(images/test@2x.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+*/
+}
+
+@media print {
+  /******************************************************************
+
+Stylesheet: プリンタのみに適用
+
+******************************************************************/
+}
+
+/******************************************************************
+Setting
+******************************************************************/
+/*# sourceMappingURL=style.css.map */
