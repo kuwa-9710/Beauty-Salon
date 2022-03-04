@@ -84,6 +84,20 @@ Stylesheet: 960px以上のモニタで適用
 
 ******************************************************************/
 
+body {
+
+  & .menu {
+    
+    & img {
+      height: 500px;
+    }
+
+    & .menu-box {
+      margin-left: 100px;
+    }
+  }
+}
+
 // body {
 //   & #about {
 //     // & .aboutus {
